@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "financial-ai"
+version = "0.1.0"
+description = "법인 재무제표 자동 분석 AI 시스템"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+openpyxl = "*"
+xlrd = "*"
+jinja2 = "*"
+pdfkit = "*"
+python-dotenv = "*"
+google-generativeai = "*"
+crewai = "*"
+pydantic-settings = "*"
+markdown = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
