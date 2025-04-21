@@ -2,7 +2,7 @@ import logging
 import argparse
 from dotenv import load_dotenv
 from crewai import Crew, Task
-from src.config.settings import settings
+from config.settings import settings
 from src.tools.crew_agent_loader import data_loader_agent
 from src.tools.crew_agent_analyzer import analyzer_agent
 from src.tools.crew_agent_reporter import reporter_agent
